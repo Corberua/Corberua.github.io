@@ -1,0 +1,403 @@
+body{
+    font-family: Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+.menu{
+    float: left;
+    padding-left: 432px;
+    
+}
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #aaa;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/boy.png)90% 100%/auto 85% no-repeat , url(../img/fon.png) center/cover no-repeat;
+    
+}
+.title_container{
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+}
+.title_container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.title_container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;   
+}
+.title_container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 58px 14px;
+    
+}
+.info{
+    width: 100%;
+    
+    height: calc(100% - 108px);
+    
+}
+.info h2{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 108px 0px 32px 0px;
+    color: #263244;
+ 
+}
+.zag{
+    width: 100%;
+    height: 10px;
+    
+    background: url(../img/zag.png) no-repeat center ;
+}
+.baby{
+    width: 100%;
+    margin: 60px 0;
+    height: 202px;
+    background: url(../img/baby.png) no-repeat center ;
+}
+.info h3{
+    text-align: center;
+    font-size: 8px;
+    text-transform: uppercase;
+    margin: 108px 0px 32px 0px;
+    color: #263244;
+}
+.info input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 7px;
+    color: #6d7682;
+    font-size: 33px;
+    padding: 0px 16px;
+    margin: 58px 790px;
+    
+}
+.info1{
+    width: 100%;
+    height: 523px;
+    background: url(../img/fon1.jpg) center/cover no-repeat;
+}
+
+.info1 h2{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 108px 0px 32px 0px;
+    color: #263244; 
+}
+.zn{
+     float: left; 
+     line-height: 20px;
+     font-size: 20px;
+     margin: 100px 60px;
+     width: 320px;
+     text-align: center; 
+    
+}
+.zn h3{
+    margin: 20px 0 20px 0;
+    color: #cf7600;
+}
+.keys{
+    width: 100%;
+    height: 900px;  
+}
+.keys h2{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 108px 0px 0px 0px;
+    color: #263244;
+ 
+}
+.keys p{
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 38px 0px 32px 0px;
+    color: #263244;
+}
+.keys1 {
+    background: url(../img/keys.jpg)center/cover no-repeat;
+    width: 100%;
+    height: 601px;
+}
+#ch{
+    float: auto;
+    line-height: 30px;
+    font-size: 36px;
+    text-transform: uppercase;    
+}
+#ch1{
+
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;    
+}
+
+.keys input{
+    height: 40px;
+    text-align: center;
+    background: #63b5ae;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 20px;
+    padding: 2px 80px;
+    margin-top: 23px;
+    text-transform: uppercase;
+}
+.keys2{
+    float: left; 
+     line-height: 20px;
+     font-size: 20px;
+     width:600px;
+     text-align: left;
+    height: 150px;
+    margin-left: 400px;
+}
+.keys3{
+    float: auto; 
+     line-height: 25px;
+     font-size: 20px;
+     width: 100%;
+     text-align: left;
+     height: 80px;
+    margin-top: 10px;
+}
+.dengi {
+    width: 100%;
+    height: 950px;
+    padding-top: 200px;
+}
+.dengi h2{
+    text-align: center;
+    font-size: 24px;
+}
+#st1{
+    border: 1px solid #eee;
+    background: #eee;
+    height: 58px;
+    width: 900px;
+    text-align: center;
+    font-size: 20px;
+    padding: 2px 400px 0 400px;
+    margin: 20px 0px 20px 0;
+}
+#st2{
+    border: 1px solid #eee;
+    height: 58px;
+    width: 900px;
+    background: #eee;
+    text-align: center;
+    font-size: 20px;
+    padding: 2px 400px 0 400px;
+    margin: 20px 0px 20px 0;
+}
+#st3{
+    border: 1px solid #eee;
+    height: 58px;
+    width: 900px;
+    background: #eee;
+    text-align: center;
+    font-size: 20px;
+    padding: 2px 400px 0 400px;
+    margin: 20px 0px 20px 0;
+}
+
+.dengi ul{
+    margin: 20px 600px 0px 600px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#.dengi p{
+    width: 900px;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 20px;
+    margin: 38px 0px 32px 600px;
+}
+#st4{
+    white-space: ;
+    border: 1px solid #fff;
+    height: 58px;
+    width: 900px;
+    background: #fff;
+    text-align: left;
+    font-size: 20px;
+    margin: 20px 0px 20px 0;
+}
+.stata{
+    width: 100%;
+    height: 499px;
+    background: url(../img/stat.jpg) center/cover no-repeat;
+}
+.stata h2{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 92px 0px 32px 0px;
+    color: #263244; 
+}
+.klient{
+     float: left; 
+     margin: 100px 0 0 160px;
+     padding: 0px 0 0 10px;
+     width: 300px;
+     height: 30px;
+     text-align: center;
+     color: #323e4f;
+}
+.klient h3{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #323e4f;
+    line-height: 50px;
+    font-weight: bold;
+}
+.klient p{
+        text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #323e4f;
+    line-height: 30px;
+}
+.otziv{
+    width: 100%;
+    height: 500px;
+}
+.otziv h2{
+        text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 92px 0px 32px 0px;
+    color: #263244;
+}
+.dady   {
+    width: 100%;
+    margin: 50px 0;
+    height: 102px;
+    background: url(../img/dady.png) no-repeat center ;
+}
+.otziv p{
+    height: 60px;
+    text-align: center;
+    font-size: 22px;
+    color: #263244; 
+}
+.ora{
+    float: left;
+    background: url(../img/ora.png) no-repeat;
+width: 30px;
+    height: 10px;
+    margin-left: 900px;
+}
+.ora1{
+    float: left;
+        background: url(../img/ora1.png)no-repeat;
+    width: 30px;
+    height: 10px;
+}
+
+.kontacts{
+    font-size: 0;
+    width: 100%;
+    height: 810px;
+    background: url(../img/oppa.jpg)center/cover no-repeat;
+}
+.iconuo h2{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 92px 0px 32px 0px;
+    color: #fff;
+    margin: 20px 0 0 45px;
+}
+.iconuo p{
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 36px;
+    margin-bottom: 30px;
+}
+.icon{
+     float: left; 
+     line-height: 30px;
+     font-size: 20px;
+     width: 600px;
+     text-align: center; 
+     
+}
+.okno{
+    width: 100%;
+    height: 300px;
+    margin: 150px 600px;
+}
+.okno1 input{
+    width: 343px;
+    height: 34px;
+    text-align: left;
+    background: #fff;
+    font-size: 10px;
+    padding: 0px 16px;
+    margin: 58px 30px 15px 0;
+}
+.knopka input{
+    width: 125px;
+    height: 45px;
+    text-align: center;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 30px 0px 0 300px;
+}
+.kontacts h3{
+    font-size: 16px;
+    color: #fff;
+}
+.kontacts h4{
+    text-align: left;
+    margin-left: 200px;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #fff;
+}
