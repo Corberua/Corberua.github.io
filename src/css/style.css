@@ -256,7 +256,7 @@ nav{
     margin-top: 10px;
 }
 .dengi {
-    width: 100%;
+    width: 1920px;
     height: 950px;
     padding-top: 200px;
 }
@@ -308,15 +308,36 @@ nav{
     font-size: 20px;
     margin: 38px 0px 32px 600px;
 }
+.dwe{
+    height: 10px;
+}
 #st4{
-    white-space: ;
+      -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+    position: absolute;
+    padding: 0 0 0 450px;
     border: 1px solid #fff;
-    height: 58px;
-    width: 900px;
+    height: 22px;
+    width: 500px;
     background: #fff;
-    text-align: left;
+    text-align: right;
     font-size: 20px;
-    margin: 20px 0px 20px 0;
+    margin: 0px 0px 0px 360px;
+}
+#st5{
+         -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+    position: absolute;
+    padding: 0 0 0 450px;
+    border: 1px solid #fff;
+    height: 22px;
+    width: 500px;
+    background: #fff;
+    text-align: right;
+    font-size: 20px;
+    margin: 0px 0px 20px 303px;
 }
 .stata{
     width: 100%;
