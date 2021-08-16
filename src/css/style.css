@@ -1,6 +1,8 @@
+html{
+ width: 1920px;
+}
 body{
-    font-family: Arial, sans-serif;
-    width: 1920px;
+   font-family: Arial, sans-serif;  
 }
 nav{
     width: 100%;
