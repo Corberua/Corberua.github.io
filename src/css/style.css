@@ -207,6 +207,23 @@ nav{
     font-size: 20px;
     font-weight: 200;
     margin-left: 350px;
+
+}
+.info1:hover .zn{
+    opacity:1;
+transition: 1s;
+}
+.info1:hover .zn1{
+    opacity:1;
+transition: 3s;
+}
+.info1:hover .zn2{
+    opacity:1;
+transition: 5s;
+}
+.info1:hover .zn3{
+    opacity:1;
+transition: 7s;
 }
 .info1{
     width: 1920px;
@@ -228,9 +245,9 @@ nav{
      margin: 100px 60px 0 350px;
      width: 150px;
      text-align: center; 
-    -webkit-animation: comming 6s ease;
-    -o-animation: comming 6s ease;
-    animation: comming 6s ease;
+        opacity: 0;
+    transition: 1s;
+
 }
 .zn1{
      float: left; 
@@ -239,9 +256,9 @@ nav{
      margin: 100px 125px;
      width: 150px;
      text-align: center; 
-     -webkit-animation: comming 6s ease;
-    -o-animation: comming 6s ease;
-    animation: comming 6s ease;
+            opacity: 0;
+    transition: 1s;
+;
 }
 .zn2{
      float: left; 
@@ -249,10 +266,10 @@ nav{
      font-size: 20px;
      margin: 100px 125px;
      width: 150px;
-     text-align: center; 
-    -webkit-animation: comming 6s ease;
-    -o-animation: comming 6s ease;
-    animation: comming 6s ease;
+     text-align: center;
+            opacity: 0;
+    transition: 1s;
+
 }
 .zn3{
      float: left; 
@@ -261,9 +278,9 @@ nav{
      margin: 100px 125px;
      width: 150px;
      text-align: center; 
-    -webkit-animation: comming 6s ease;
-    -o-animation: comming 6s ease;
-    animation: comming 6s ease;
+            opacity: 0;
+    transition: 1s;
+
     
 }
 .zn h3{
@@ -434,7 +451,7 @@ nav{
       -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-    position: absolute;
+    position:relative;
     padding: 0 0 0 450px;
     border: 1px solid #fff;
     height: 22px;
@@ -442,13 +459,14 @@ nav{
     background: #fff;
     text-align: right;
     font-size: 20px;
-    margin: 0px 0px 0px 360px;
+    left: 360px;
 }
 #st5{
          -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-    position: absolute;
+     position:relative;
+   left: 303px;
     padding: 0 0 0 450px;
     border: 1px solid #fff;
     height: 22px;
@@ -456,7 +474,6 @@ nav{
     background: #fff;
     text-align: right;
     font-size: 20px;
-    margin: 0px 0px 20px 303px;
 }
 .stata{
     width: 100%;
@@ -466,6 +483,7 @@ nav{
     transform-style: preserve-3d;
     overflow-y: scroll;
     overflow-x: hidden;
+
 }
 .parallax{
         box-sizing: border-box;
@@ -500,6 +518,12 @@ nav{
      height: 30px;
      text-align: center;
      color: #323e4f;
+    opacity: 0;
+    transition: 1s;
+}
+.stata:hover .klient{
+    opacity: 1;
+    transition: 2s;
 }
 .klient h3{
     text-align: center;
