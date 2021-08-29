@@ -205,7 +205,7 @@ transition: 7s;
      float: left; 
      line-height: 20px;
      font-size: 20px;
-     margin: 8% 5%;
+     margin: 8% 10%;
      width: 130px;
     
      text-align: center; 
@@ -462,6 +462,7 @@ transition: 7s;
     transform-style: preserve-3d;
     overflow-y: scroll;
     overflow-x: hidden;
+    #margin-left: 50px;
 
 }
 .parallax{
@@ -491,9 +492,9 @@ transition: 7s;
 }
 .klient{
      float: left; 
-     margin: 100px 0;
-     padding: 0px 0 0 10px;
-     width: 250px;
+     margin: 10% 2%;
+     padding: 10px 0 0 15%;
+     width: 220px;
      height: 30px;
      text-align: center;
      color: #323e4f;
@@ -522,7 +523,7 @@ transition: 7s;
 .otziv{
     width: 100%;
     height: 75%;
-    padding-right: 14%;
+    #padding-right: 14%;
 }
 .otziv h2{
         text-align: center;
