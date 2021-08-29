@@ -1,0 +1,761 @@
+body{
+   font-family: Arial, sans-serif;  
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+    position: fixed;
+}
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    #padding-left: 388px;
+    float: left;
+}
+
+.menu{
+    float: left;
+    #padding-left: 432px;
+    
+}
+.menu li a{
+    transition: all 0.3s;
+    color: whitesmoke;
+    transform: scale(1);
+    display: inline-block;
+    text-decoration: none;
+}
+.white-btn:visited{
+    color: white;
+}
+
+
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #aaa;
+    margin-right: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+;
+}
+.menu li:nth-child(2){
+    animation-delay: 0.4s;
+}
+.menu li:nth-child(3){
+    animation-delay: 0.8s;
+}
+.menu li:nth-child(4){
+    animation-delay: 1.2s;
+}
+.menu li:nth-child(5){
+    animation-delay: 1.6s;
+}
+.menu li:nth-child(6){
+    animation-delay: 2.0s;
+}
+main{
+    width: 100%;
+    height: 100%;}
+.main{
+    width: 100%;
+    height: 100%;
+    background: url(https://github.com/Corberua/corberua.github.io/blob/main/src/img/boy.png?raw=true)90% 100%/auto 85% no-repeat , url(../img/fon.png) center/cover no-repeat;
+    
+}
+
+.title_container{
+    float: left;
+    color: #2c384a;
+    text-align: center;
+    width: 100%;
+
+}
+.title_container h1{
+    margin-top: 250px;
+    font-family: arial, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+.title_container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;   
+}
+.title_container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 58px 14px;
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.title_container input:hover {
+    background: #344051;
+    color: white;
+}
+.title_container input:active{
+    transform: scale(0.3);
+}
+.info{
+    width: 100%;
+    height: 100%;  
+}
+.info h2{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 108px 0px 32px 0px;
+    color: #263244;
+ 
+}
+.zag{
+    width: 100%;
+    height: 10px;
+    background: url(https://github.com/Corberua/corberua.github.io/blob/main/src/img/zag.png?raw=true) no-repeat center ;
+}
+.baby{
+    width: 100%;
+    margin: 60px 0;
+    height: 202px;
+    background: url(https://github.com/Corberua/corberua.github.io/blob/main/src/img/baby.png?raw=true) no-repeat center ;
+}
+.info h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 108px 0px 32px 0px;
+    color: #263244;
+}
+.information{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 500px;
+}
+.info input{
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 7px;
+    color: #6d7682;
+    font-size: 33px;
+    padding: 0px 15px;
+    margin: 58px 0px 30px 20px;
+    display: inline-block;
+    transform: scale(1);
+    transition: all;
+}
+.info input:hover {
+    background: #344051;
+    color: white;
+}
+.info input:active{
+    transform: scale(1.2);
+}
+.in    {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+.info1:hover .zn{
+    opacity:1;
+transition: 1s;
+}
+.info1:hover .zn1{
+    opacity:1;
+transition: 3s;
+}
+.info1:hover .zn2{
+    opacity:1;
+transition: 5s;
+}
+.info1:hover .zn3{
+    opacity:1;
+transition: 7s;
+}
+.info1{
+    width: 100%;
+    height: 70%;
+    background: url(https://github.com/Corberua/corberua.github.io/blob/main/src/img/fon1.jpg?raw=true) center/cover no-repeat ;
+    
+}
+
+.info1 h2{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 108px 0px 32px 0px;
+    color: #263244; 
+}
+.zn{
+     float: left; 
+     line-height: 20px;
+     font-size: 20px;
+     margin: 8% 5%;
+     width: 130px;
+    
+     text-align: center; 
+        opacity: 0;
+    transition: 1s;
+
+}
+.zn1{
+     float: left; 
+     line-height: 20px;
+     font-size: 20px;
+    margin: 8% 5%;
+     width: 130px;
+     text-align: center; 
+            opacity: 0;
+    transition: 1s;
+;
+}
+.zn2{
+     float: left; 
+     line-height: 20px;
+     font-size: 20px;
+     margin: 8% 5%;
+     width: 130px;
+     text-align: center;
+            opacity: 0;
+    transition: 1s;
+
+}
+.zn3{
+     float: left; 
+     line-height: 20px;
+     font-size: 20px;
+    margin: 8% 5%;
+     width: 130px;
+     text-align: center; 
+            opacity: 0;
+    transition: 1s;
+
+    
+}
+.zn h3{
+    margin: 20px 10px 20px 0;
+    color: #cf7600;
+}
+.zn1 h3{
+    margin: 20px 10px 20px 0;
+    color: #cf7600;
+}
+.zn2 h3{
+    margin: 20px 10px 20px 0;
+    color: #cf7600;
+    
+}
+.zn3 h3{
+    margin: 20px 10px 20px 0;
+    color: #cf7600;
+    -webkit-animation: comming 2s ease;
+    -o-animation: comming 2s ease;
+    animation: comming 2s ease;
+}
+
+.keys{
+    width: 100%;
+    height: calc(100%-100px);  
+}
+
+.keys h2{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 108px 0px 0px 0px;
+    color: #263244;
+ 
+}
+.keys p{
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 38px 0px 32px 0px;
+    color: #263244;
+}
+#.keys1 {
+
+    width: 100%;
+    height: 1000px;
+    #margin-bottom: -400px;
+}
+#ch{
+    float: auto;
+    line-height: 30px;
+    font-size: 30px;
+    text-transform: uppercase;    
+}
+#ch1{
+
+    line-height: 40px;
+    font-size: 16px;
+    text-transform: uppercase;    
+}
+
+.keys input{
+    height: 40px;
+    text-align: center;
+    background: #63b5ae;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 20px;
+    padding: 2px 80px;
+    margin: 10px 27px;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.keys input:hover {
+    color: white;
+}
+.keys input:active{
+    transform: scale(0.3);
+}
+.keys2{
+    position: relative;
+    float: left; 
+     line-height: 20px;
+     font-size: 20px;
+     width:600px;
+     text-align: left;
+    height: 150px;
+    margin-left: 6%;
+    #margin-right: 30px;
+    
+}
+.k1   {
+    height: 80%;
+
+    margin-left: -20%;
+    margin-bottom: -200px;
+}
+.keys3{
+    position: absolute;
+    float: auto; 
+     line-height: 25px;
+     font-size: 15px;
+     width: 100%;
+     text-align: left;
+     height: 80px;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+.dengi {
+    width: 100%;
+    height: 950px;
+    padding-top: 200px;
+}
+.dengi h2{
+    text-align: center;
+    font-size: 24px;
+}
+#st1{
+    border: 1px solid #eee;
+    background: #eee;
+    height: 58px;
+    width: 900px;
+    text-align: center;
+    font-size: 20px;
+    padding: 2px 400px 0 400px;
+    margin: 20px 0px 20px 0;
+}
+#st2{
+    border: 1px solid #eee;
+    height: 58px;
+    width: 900px;
+    background: #eee;
+    text-align: center;
+    font-size: 20px;
+    padding: 2px 400px 0 400px;
+    margin: 20px 0px 20px 0;
+}
+#st3{
+    border: 1px solid #eee;
+    height: 58px;
+    width: 900px;
+    background: #eee;
+    text-align: center;
+    font-size: 20px;
+    padding: 2px 400px 0 400px;
+    margin: 20px 0px 20px 0;
+}
+
+.dengi ul{
+   #margin: 20px 600px 0px 600px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#.dengi p{
+    width: 900px;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 20px;
+    margin: 38px 0px 32px 600px;
+}
+.dwe{
+    height: 10px;
+}
+#st4{
+      -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+    position:static;
+    padding: 0 0 0 450px;
+    border: 1px solid #fff;
+    height: 30px;
+    width: 500px;
+    background: #fff;
+    text-align: right;
+    font-size: 20px;
+    margin-left: 35%;
+    left: 360px;
+}
+
+#st5{
+         -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+     position:static;
+   left: 303px;
+    padding: 0 0 0 450px;
+    border: 1px solid #fff;
+    height: 30px;
+    width: 500px;
+    margin-left: 29.8%;
+    background: #fff;
+    text-align: right;
+    font-size: 20px;
+}
+@media (max-width: 1500px){ 
+    #st4{
+        padding:0 0 0 282px;
+        width: 320px;
+    }
+    #st5{
+        padding: 0 0 0 270px;
+        width: 300px;
+    }
+}
+.stata{
+    width: 100%;
+    height: 499px;
+    background: url(https://github.com/Corberua/corberua.github.io/blob/main/src/img/stat.jpg?raw=true) center/cover no-repeat;
+        perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+.parallax{
+        box-sizing: border-box;
+    transform-style: inherit;
+    min-height: 300px;
+    width: 100%;
+    height: 800px;
+}
+.parallax::before{
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    transform-origin: center;
+    background-image: url(https://github.com/Corberua/corberua.github.io/blob/main/src/img/stat.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateZ(-1px) scale(2);
+}
+.stata h2{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 92px 0px 32px 0px;
+    color: #263244; 
+}
+.klient{
+     float: left; 
+     margin: 100px 0;
+     padding: 0px 0 0 10px;
+     width: 250px;
+     height: 30px;
+     text-align: center;
+     color: #323e4f;
+    opacity: 0;
+    transition: 1s;
+}
+.stata:hover .klient{
+    opacity: 1;
+    transition: 2s;
+}
+.klient h3{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #323e4f;
+    line-height: 50px;
+    font-weight: bold;
+}
+.klient p{
+        text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #323e4f;
+    line-height: 30px;
+}
+.otziv{
+    width: 100%;
+    height: 75%;
+    padding-right: 14%;
+}
+.otziv h2{
+        text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 92px 0px 32px 0px;
+    color: #263244;
+}
+.dady   {
+    width: 100%;
+    margin: 50px 0;
+    height: 102px;
+    background: url(https://github.com/Corberua/corberua.github.io/blob/main/src/img/dady.png?raw=true) no-repeat center ;
+}
+.otziv p{
+    height: 60px;
+    text-align: center;
+    font-size: 22px;
+    color: #263244; 
+}
+.ora{
+    float: left;
+    background: url(https://github.com/Corberua/corberua.github.io/blob/main/src/img/ora.png?raw=true)no-repeat;
+width: 30px;
+    height: 10px;
+    margin-left: 620px;
+}
+.ora1{
+    float: left;
+        background: url(https://github.com/Corberua/corberua.github.io/blob/main/src/img/ora1.png?raw=true)no-repeat;
+    width: 30px;
+    height: 10px;
+}
+@media (max-width: 1500px){
+    .ora{
+        margin-left: 440px;
+    }
+}
+
+.kontacts{
+    
+    width: 100%;
+    height: 1000px;
+    background: url(https://github.com/Corberua/corberua.github.io/blob/main/src/img/oppa.jpg?raw=true)center/cover no-repeat;
+}
+.iconuo h2{
+    font-weight: 200;
+    text-align: center;
+    font-size: 27px;
+    text-transform: uppercase;
+    padding: 90px 40px 48px 0px;
+    color: #fff;
+    margin: 20px 0 0 40px;
+}
+.iconuo p{
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 36px;
+    margin-bottom: 30px;
+}
+.icon{
+     float: left; 
+     line-height: 30px;
+     font-size: 20px;
+     width: 120px;
+     text-align: center;
+    margin-top: 30px;
+    margin-right: 12%;
+     
+}
+
+.icon1{
+     float: left; 
+     line-height: 30px;
+     font-size: 20px;
+     width: 130px;
+     text-align: center;
+    margin-top: 30px;
+    margin-right: 12%;
+     
+}
+.icon2{
+     float: left; 
+     line-height: 30px;
+     font-size: 20px;
+     width: 130px;
+     text-align: center;
+    margin-top: 30px;
+     padding-right: 0px;
+}
+.okno{
+    width: 100%;
+    height: 100%;
+    margin: 20% 10%;
+}
+@media (max-width: 1500px){
+    .icon, .icon1, .icon2{
+        width: 100px;
+    }
+}
+.okno{
+    width: 100%;
+    float: left;
+    margin-top: 1%;
+    padding-top: 10%;
+}
+.okno1 input{
+    width: 342px;
+    height: 34px;
+    text-align: left;
+    background: #fff;
+    font-size: 10px;
+    padding: 0px 16px;
+    margin: 58px 30px 15px 0;
+}
+@media (max-width: 1500px){
+    .okno1 input{
+        width: 250px;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 1500px){
+    .mb-3{
+        margin-left: 20px;
+        width: 558px;
+    }
+}
+.knopka input{
+    width: 125px;
+    height: 45px;
+    text-align: center;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 30px 0px 0 280px;
+}
+@media (max-width: 1500px){
+    .knopka input{
+        margin-left: 210px;
+    }
+}
+.kontacts h3{
+    font-size: 16px;
+    color: #fff;
+}
+.kontacts h4{
+    text-align: left;
+    margin-left: 24%;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #fff;
+}
+.ok{
+    margin-left: -10px;
+}
+.okno2{
+    width: 82.3%;
+}
+@media (max-width: 1500px){
+    .okno2, .okno1{
+        width: 100%;
+    }
+}
+
+
+
+
+
+    .preloader {
+      /*фиксированное позиционирование*/
+      position: fixed;
+      /* координаты положения */
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      /* фоновый цвет элемента */
+      background: #e0e0e0;
+      /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+      z-index: 1001;
+    }
+
+    .preloader__row {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      width: 70px;
+      height: 70px;
+      margin-top: -35px;
+      margin-left: -35px;
+      text-align: center;
+      animation: preloader-rotate 2s infinite linear;
+    }
+
+    .preloader__item {
+      position: absolute;
+      display: inline-block;
+      top: 0;
+      background-color: #337ab7;
+      border-radius: 100%;
+      width: 35px;
+      height: 35px;
+      animation: preloader-bounce 2s infinite ease-in-out;
+    }
+
+    .preloader__item:last-child {
+      top: auto;
+      bottom: 0;
+      animation-delay: -1s;
+    }
+
+    @keyframes preloader-rotate {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @keyframes preloader-bounce {
+      0%,
+      100% {
+        transform: scale(0);
+      }
+      50% {
+        transform: scale(1);
+      }
+    }
+    .loaded_hiding .preloader {
+      transition: 0.3s opacity;
+      opacity: 0;
+    }
+    .loaded .preloader {
+      display: none;
+    }
