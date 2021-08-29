@@ -192,6 +192,14 @@ main{
 .info input:active{
     transform: scale(1.2);
 }
+@media (max-width:1000px){
+    .info input{
+         width: 200px;
+    height: 30px;
+font-size: 15px;
+        margin-left: 240px;
+    }
+}
 .in    {
     text-align: center;
     width: 100%;
@@ -278,6 +286,20 @@ transition: 7s;
 @media (max-width: 1400px){
     .zn, .zn2, .zn3, .zn1{
         margin-right: 2%;
+    }
+}
+@media (max-width: 1000px){
+    .zn, .zn2, .zn3, .zn1{
+        font-size: 15px;
+    margin: 8% 3%;
+     width: 110px;
+      
+    }
+    .zn h3, .zn2 h3, .zn3 h3, .zn1 h3{
+       font-size: 15px;
+    }
+    .info1 h2{
+        font-size: 17px;
     }
 }
 .zn h3{
@@ -373,6 +395,23 @@ transition: 7s;
     #margin-right: 30px;
     
 }
+@media (max-width: 900px){
+    #ch{
+        line-height: 20px;
+    font-size: 20px;
+    }
+    #ch1{
+        line-height: 30px;
+    font-size: 16px;
+    }
+    .keys2 input{
+        height: 20px;
+        font-size: 10px;
+    }
+    .keys{
+        height: 1000px;
+    }
+}
 .k1   {
     height: 80%;
 
@@ -385,6 +424,13 @@ transition: 7s;
         margin-left: -360px;
     }
 }
+@media (max-width: 900px){
+    .k1{
+        width: 100%;
+        margin-left: -360px;
+        background-image: image()
+    }
+}
 .keys3{
     position: absolute;
     float: auto; 
@@ -395,6 +441,14 @@ transition: 7s;
      height: 80px;
     margin-left: 30%;
     margin-top: 10px;
+}
+@media (max-width: 900px){
+    .keys3{
+        width: 300px;
+         margin-left: 50%;
+        line-height: 15px;
+     font-size: 15px;
+    }
 }
 .dengi {
     width: 100%;
@@ -442,13 +496,6 @@ transition: 7s;
     text-transform: uppercase;
     font-size: 20px;
 }
-#.dengi p{
-    width: 900px;
-    line-height: 30px;
-    text-align: justify;
-    font-size: 20px;
-    margin: 38px 0px 32px 600px;
-}
 .dwe{
     height: 10px;
 }
@@ -487,6 +534,28 @@ transition: 7s;
     #st4{
         padding:0 0 0 282px;
         width: 320px;
+    }
+    #st5{
+        padding: 0 0 0 270px;
+        width: 300px;
+    }
+}
+@media (max-width: 1000px){ 
+    #st1, #st2, #st3{
+        height: 40px;
+        width: 600px;
+        font-size: 11px;
+        padding: 2px 250px 0 250px;
+        margin: 20px 0px 20px 0;
+        
+    }
+    .dengi ul{
+    line-height: 30px;
+    font-size: 13px;
+    }
+    #st4{
+        padding:0 0 0 272px;
+        width: 300px;
     }
     #st5{
         padding: 0 0 0 270px;
@@ -539,6 +608,12 @@ transition: 7s;
      color: #323e4f;
     opacity: 0;
     transition: 1s;
+}
+@media (max-width: 1000px){
+    
+    .klient{
+        margin-bottom: 100px;
+    }
 }
 .stata:hover .klient{
     opacity: 1;
@@ -610,6 +685,11 @@ width: 30px;
 @media (max-width: 1300px){
     .ora{
         margin-left: 284px;
+    }
+}
+@media (max-width: 1000px){
+    .ora{
+        margin-left: 310px;
     }
 }
 
@@ -702,15 +782,25 @@ width: 30px;
         width: 558px;
     }
 }
-@media (max-width: 1400px){
-    .okno1{
-        
-    }
-}
-@media (max-width: 1400px){
+
+@media (max-width: 1300px){
     .mb-3{
         margin-left: 20px;
         width: 450px;
+    }
+}
+@media (max-width: 1000px){
+    .mb-3{
+        margin-left: 20px;
+        width: 450px;
+    }
+        .okno1 input{
+        width: 200px;
+        margin-left: 20px;
+    }
+    .okno h4{
+        margin-right: 250px;
+        font-size: 10px;
     }
 }
 .knopka input{
