@@ -18,8 +18,18 @@ nav{
     line-height: 60px;
     #padding-left: 388px;
     float: left;
+   -webkit-animation: comming 2s ease;
+    -o-animation: comming 2s ease;
+    animation: comming 2s ease;
 }
-
+@keyframes comming{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
 .menu{
     float: left;
     #padding-left: 432px;
@@ -32,6 +42,18 @@ nav{
     display: inline-block;
     text-decoration: none;
 }
+.menu li a:visited{
+    color: white; 
+}
+.menu li a:hover{
+    color: red; 
+    
+    
+}
+.menu li a:active{
+     transform: scale(1.1);
+}
+
 .white-btn:visited{
     color: white;
 }
@@ -44,7 +66,10 @@ nav{
     margin-right: 40px;
     font-size: 14px;
     text-transform: uppercase;
-;
+       -webkit-animation: topsgift 2.4s ease forwards;
+    -o-animation: topsgift 2.4s ease forwards;
+    animation:topsgift 2.4s ease forwards;
+    opacity: 0;
 }
 .menu li:nth-child(2){
     animation-delay: 0.4s;
@@ -60,6 +85,16 @@ nav{
 }
 .menu li:nth-child(6){
     animation-delay: 2.0s;
+}
+@keyframes topsgift{
+    from{
+        opacity: 0;
+        margin-top: -80px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0px;
+    }
 }
 main{
     width: 100%;
