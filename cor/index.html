@@ -243,6 +243,15 @@ LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. TEMPORA, LABORUM. Lore
                 </section> 
         </main>
           <script src="js/bootstrap.bundle.min.js"></script>
+       <script>
+    window.onload = function () {
+      document.body.classList.add('loaded_hiding');
+      window.setTimeout(function () {
+        document.body.classList.add('loaded');
+        document.body.classList.remove('loaded_hiding');
+      }, 500);
+    }
+  </script>
  
    
     </body>
