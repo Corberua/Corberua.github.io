@@ -12,12 +12,12 @@
         
     </head>
     <body>
-                                <!--<div class="preloader">
+                                <div class="preloader">
     <div class="preloader__row">
       <div class="preloader__item"></div>
       <div class="preloader__item"></div>
     </div>
-  </div>-->
+  </div>
         <header>
             <nav>
                <div class="container">
@@ -242,9 +242,18 @@ LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. TEMPORA, LABORUM. Lore
                 </div></div></div>
                 </section> 
         </main>
+         <script>
+    window.onload = function () {
+      document.body.classList.add('loaded_hiding');
+      window.setTimeout(function () {
+        document.body.classList.add('loaded');
+        document.body.classList.remove('loaded_hiding');
+      }, 500);
+    }
+  </script>
           <script src="js/bootstrap.bundle.min.js"></script>
  
-   <!--<script src="js/myscript.js"></script>-->
+   <script src="js/myscript.js"></script>
     </body>
     
 </html>
