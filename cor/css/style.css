@@ -70,7 +70,11 @@ main{
     background: url(https://github.com/Corberua/corberua.github.io/blob/main/src/img/boy.png?raw=true)90% 100%/auto 85% no-repeat , url(../img/fon.png) center/cover no-repeat;
     
 }
-
+@media (max-width: 400px){
+    .main {
+        height: 900px;
+    }
+}
 .title_container{
     float: left;
     color: #2c384a;
@@ -136,6 +140,7 @@ main{
         border: 2px solid #fff
     }
 }
+
 .info{
     width: 100%;
     height: 100%;  
@@ -200,6 +205,14 @@ font-size: 15px;
         margin-left: 240px;
     }
 }
+@media (max-width:400px){
+    .info input{
+         width: 200px;
+    height: 30px;
+font-size: 15px;
+        margin-left: 120px;
+    }
+}
 .in    {
     text-align: center;
     width: 100%;
@@ -229,6 +242,17 @@ transition: 7s;
     background: url(https://github.com/Corberua/corberua.github.io/blob/main/src/img/fon1.jpg?raw=true) center/cover no-repeat ;
     
 }
+@media (max-width: 400px){
+    .info1{
+        height: 600px;
+        margin-right: 2%;
+    }
+     .information{
+        height: 900px;
+        margin-right: 2%;
+    }
+}
+
 
 .info1 h2{
     text-align: center;
@@ -301,6 +325,13 @@ transition: 7s;
     .info1 h2{
         font-size: 17px;
     }
+}
+@media (max-width: 400px){
+    .zn, .zn2, .zn3, .zn1{
+       
+        margin: 70px 20px 5px 20px;
+    }
+    
 }
 .zn h3{
     margin: 20px 10px 20px 0;
@@ -412,6 +443,26 @@ transition: 7s;
         height: 1000px;
     }
 }
+@media (max-width: 400px){
+    #ch{
+        line-height: 10px;
+    font-size: 10px;
+    }
+    #ch1{
+        line-height: 15px;
+    font-size: 10px;
+    }
+    .keys2 input{
+        height: 10px;
+        font-size: 8px;
+        width: 60px;
+       
+    }
+    .keys{
+        height: 1000px;
+        margin-bottom: -450px;
+    }
+}
 .k1   {
     height: 80%;
 
@@ -428,6 +479,14 @@ transition: 7s;
     .k1{
         width: 100%;
         margin-left: -360px;
+        background-image: image()
+    }
+}
+@media (max-width: 400px){
+    .k1 img{
+        width: 400px;
+        margin-left: 300px;
+        margin-bottom: 0px;
         background-image: image()
     }
 }
@@ -448,6 +507,24 @@ transition: 7s;
          margin-left: 50%;
         line-height: 15px;
      font-size: 15px;
+    }
+}
+@media (max-width: 400px){
+    .keys3{
+        width: 150px;
+        height: 300px;
+         margin-left: 220px;
+        line-height: 15px;
+     font-size: 10px;
+        margin-top: -300px;
+    }
+    .keys2{
+        width: 200px;
+        margin-left: -20px;
+        margin-right: 50px;
+        line-height: 5px;
+     font-size: 5px;
+        margin-top: -300px;
     }
 }
 .dengi {
@@ -560,6 +637,38 @@ transition: 7s;
     #st5{
         padding: 0 0 0 270px;
         width: 300px;
+    }
+}
+@media (max-width: 400px){
+    .dengi{
+        height: 600px;
+    }
+    #st1, #st2, #st3{
+        height: 30px;
+        width: 300px;
+        font-size: 11px;
+        padding: 2px 100px 0 100px;
+        margin: 20px 0px 20px 0;
+        
+    }
+    .dengi ul{
+    line-height: 10px;
+    font-size: 8px;
+    }
+    #st4{
+        padding:0 0 0 75px;
+        width: 100px;
+        height: 10px;
+        font-size: 10px;
+    }
+    #st5{
+        padding: 0 0 0 70px;
+        width: 100px;
+        font-size: 10px;
+    }
+    .dengi h2{
+        font-size: 20px;
+        margin-bottom: 20px;
     }
 }
 .stata{
@@ -677,6 +786,15 @@ width: 30px;
     width: 30px;
     height: 10px;
 }
+@media (max-width:400px ){
+    .otziv{
+        height: 600px;
+        font-size: 10px;
+    }
+    .otziv p{
+        font-size: 10px;
+    }
+}
 @media (max-width: 1500px){
     .ora{
         margin-left: 440px;
@@ -690,6 +808,11 @@ width: 30px;
 @media (max-width: 1000px){
     .ora{
         margin-left: 310px;
+    }
+}
+@media (max-width: 400px){
+    .ora{
+        margin-left: 150px;
     }
 }
 
@@ -755,6 +878,11 @@ width: 30px;
         width: 100px;
     }
 }
+@media (max-width: 400px){
+    .icon, .icon1, .icon2{
+        width: 50px;
+    }
+}
 .okno{
     width: 100%;
     float: left;
@@ -803,6 +931,20 @@ width: 30px;
         font-size: 10px;
     }
 }
+@media (max-width: 1000px){
+    .mb-3{
+        margin-left: 20px;
+        width: 300px;
+    }
+        .okno1 input{
+        width: 150px;
+        margin-left: 20px;
+    }
+    .okno h4{
+        margin-right: 150px;
+        font-size: 10px;
+    }
+}
 .knopka input{
     width: 125px;
     height: 45px;
@@ -818,6 +960,11 @@ width: 30px;
 @media (max-width: 1500px){
     .knopka input{
         margin-left: 210px;
+    }
+}
+@media (max-width: 400px){
+    .knopka input{
+        margin-left: 110px;
     }
 }
 .kontacts h3{
