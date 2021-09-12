@@ -5,9 +5,13 @@
         <meta name="description" content="Моя первая страница">
         <meta name="author" content="Corberua">
         <meta mame="robots" content="all">
+        
         <title>Corberua веб разработчик</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         
     </head>
@@ -27,12 +31,12 @@
                        </div>
                        <div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block">
                                            <div class="menu">
-                <ul><li><a href="#">обо мне</a></li>
-                <li><a href="#">услуги</a></li>
-                <li><a href="#">кейсы</a></li>
-                <li><a href="#">прайс</a></li>
-                <li><a href="#">отзывы</a></li>
-                <li><a href="#">контакты</a></li></ul>
+                <ul><li><a href="#main">обо мне</a></li>
+                <li><a href="#information">услуги</a></li>
+                <li><a href="#keys">кейсы</a></li>
+                <li><a href="#dengi">прайс</a></li>
+                <li><a href="#otziv">отзывы</a></li>
+                <li><a href="#kontacts">контакты</a></li></ul>
                 </div>
                        </div>
                    </div>
@@ -56,7 +60,7 @@
             </nav>
         </header>
         
-        <main>   <section class="main">  <div class="container h-100">   
+        <main>   <section class="main" id="main">  <div class="container h-100">   
         <div class="row align-items-center h-100">  <div class="col-xxl-6 col-xl-7">  
         <div class="title_container">
         <h1>Привет<br>Я Никита"Corberua"</h1>
@@ -66,7 +70,7 @@
 </section>
        
        
-      <section class="information">
+      <section class="information" id="information">
            <div class="container">
                <div class="row">
                    <div class="col-xxl-12">
@@ -76,7 +80,7 @@
            <div class="info">
             <h2>обо мне</h2>
             <div class="zag " ></div>
-            <div class="baby"></div>
+            <div class="baby" ></div>
             <div class="in col-12">
             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore officiis, ipsa illo consequatur commodi architecto ipsum aspernatur atque voluptatibus repellat reprehenderit eaque nesciunt recusandae dolores temporibus ut doloribus aliquam dolorem ipsam qui deleniti culpa quia est! Vero, consequatur error placeat.</h3></div>
             <div class="col-xxl-3 offset-xxl-4 col-xl-2  offset-xl-3 px-xl-5 col-lg-6 offset-lg-3">
@@ -91,20 +95,20 @@
                <div class="col-xxl-12 col-lg-8">
             <h2>что я умею</h2>
             <div class="zag">
-            <div class="zn">
-                <img src="https://github.com/Corberua/corberua.github.io/blob/main/src/img/nout.jpg?raw=true" alt="">
+            <div class="zn element-animation">
+                <img src="https://github.com/Corberua/corberua.github.io/blob/main/src/img/nout.jpg?raw=true" alt="" class="image-link" href="img/fon1.jpg">
                 <h3>веб дизайн</h3><span>описание</span>
                 </div>
-                <div class="zn1">
-                <img src="https://github.com/Corberua/corberua.github.io/blob/main/src/img/znak.png?raw=true" alt="">
+                <div class="zn1 element-animation">
+                <img src="https://github.com/Corberua/corberua.github.io/blob/main/src/img/znak.png?raw=true" alt="" class="image-link" href="img/fon1.jpg">
                 <h3>Разработка</h3><span>описание</span>
                 </div>
-                <div class="zn2">
-                <img src="https://github.com/Corberua/corberua.github.io/blob/main/src/img/roket.png?raw=true" alt="">
+                <div class="zn2 element-animation">
+                <img src="https://github.com/Corberua/corberua.github.io/blob/main/src/img/roket.png?raw=true" alt="" class="image-link" href="img/fon1.jpg">
                 <h3>CEO-Оптимизация</h3><span>описание</span>
                 </div>
                 <div class="zn3">
-                <img src="https://github.com/Corberua/corberua.github.io/blob/main/src/img/gram.png?raw=true" alt="">
+                <img src="https://github.com/Corberua/corberua.github.io/blob/main/src/img/gram.png?raw=true" alt="" class="image-link" href="img/fon1.jpg">
                     <h3>Маркетинг</h3><span>описание</span>
                 </div> </div>
 
@@ -113,7 +117,29 @@
 </div>
 </div>
         </section>
-        <section  class="keys">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <section  class="keys" id="keys">
          <div class="container h-100 py-5">
                <div class="row h-100 py-5">
                <div class="col-xxl-12 col-xl-12 col-lg-10 ">
@@ -123,7 +149,12 @@
             <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, similique.</p>
             
 
-          <div class="k1"><img src="https://github.com/Corberua/corberua.github.io/blob/main/src/img/keys.jpg?raw=true" alt=""></div>
+          <div class="k1">
+  <div class="fotorama">
+  <img src="img/kk.jpg" >
+  <img src="https://s.fotorama.io/2.jpg" >
+</div>
+ </div>
             <div class="keys2">
                  
                 <ul id="ch"><li>client:</li></ul>
@@ -138,30 +169,31 @@ LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. TEMPORA, LABORUM. Lore
                </div>
 </div>
 </div> </section >
-        <section class="dengi">
+        <section class="dengi" id="dengi">
            <div class="container h-100">
                <div class="row h-100 ">
                <div class="col-xxl-10 col-xl-8 offset-xl-2 col-lg-6">
             <h2>Расчет стоимости</h2>
             <ul><li>тип сайта<br><select name="site" id="st1">
             <option value="tipe1">визитка</option>
-            <option value="tipe2">магазин</option></select></li> 
+            <option value="tipe2">витрина</option></select></li> 
             <li>дизайн<br><select name="dyzine" id="st2">
-                <option value="tipe1">11111</option>
-                <option value="tipe2">22222</option>
+                <option value="tipe1">шаблон</option>
+                <option value="tipe2">уник</option>
                 </select></li>
             <li>Адаптивность<br><select name="Adap" id="st3">
-            <option value="tipe1">zzzz</option>
-            <option value="tipe2">xxxx</option>
+            <option value="tipe1">пиксель</option>
+            <option value="tipe2">резина</option>
                 </select></li></ul>
                 <div class="dwe">
-            <ul><li>Сроки<select name="Adap" id="st4"><option value="tipe1"> 0</option></select></li>
-           <li> Cтоимость<select name="Adap" id="st5"><option value="tipe2">  0</option></select></li></ul></div>
+                <span>Стоимость</span><span id="st6"> </span>
+            <!--<ul><li>Сроки<select name="Adap" id="st4"><option value="tipe1"> 0</option></select></li>
+           <li> Cтоимость<select name="Adap" id="st5"><option value="tipe2">  0</option></select></li></ul>--></div>
                </div></div></div>
                 </section>
         <section> 
                     
-                <div class="stata"><div class="container">
+                <div class="stata" id="stata"><div class="container">
             <div class="row">
                 <div class="col-xxl-12 "><div class="parallax">
             <h2>Немного статистики</h2>
@@ -190,7 +222,7 @@ LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. TEMPORA, LABORUM. Lore
              </div>
         </div></div></section>
                  
-                  <section class="otziv">
+                  <section class="otziv" id="otziv">
                     <div class="container h-100">
             <div class="row h-100">
                 <div class="col-xxl-12 offset-xxl-0 col-xl-10 offset-xl-1 col-lg-8 offset-lg-2  ">
@@ -205,7 +237,7 @@ LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. TEMPORA, LABORUM. Lore
                           <div class="ora1"></div>
                       
                     </div></div></div> </section>
-       <section class="kontacts">
+       <section class="kontacts" id="kontacts">
          <div class="container h-100">
             <div class="row h-100">
                 <div class="col-xxl-8 offset-xxl-2 col-xl-7 offset-xl-3 col-lg-7 offset-lg-2 ">
@@ -251,8 +283,11 @@ LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. TEMPORA, LABORUM. Lore
       }, 500);
     }
   </script>
+
+         <script src="js/jquery-3.6.0.min.js"></script>
           <script src="js/bootstrap.bundle.min.js"></script>
- 
+          <script src="js/jquery.magnific-popup.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
    <script src="js/myscript.js"></script>
     </body>
     
