@@ -1,4 +1,20 @@
+$(document).ready(function(){
+   let options = {threshold: [0.5]};
+let observer = new IntersectionObserver(onEntry, options);
+let elements = $('.zn3');
+elements.each ((i,el) => {
+   observer.observe(el); 
+});
+    
+});
 
+function onEnrty (entry){
+    entry.forEach(change => {
+        if (change.isIntersecting){
+            change.target.classList.add('show-animation');
+        }
+    });
+}
 
 let a = $('#st1');
 let b = $('#st2');
@@ -38,6 +54,7 @@ $(document).ready(function() {
 	});
 	});
 	
+
 
 
 
@@ -103,19 +120,7 @@ if(a === "Визитка" && b === "Шаблон" && c === "Пиксель"){
 
 
 
-/*let options = {threshold: [1]};
-let observer = new IntersectionObserver(onEntry, options);
-let elements = $('zn3');
-elements.each ((i,el) => {
-   observer.observe(el); 
-});
-function onEnrty (entry){
-    entry.forEach(change => {
-        if (change.isIntersecting){
-            change.target.classList.add("show-animation");
-        }
-    });
-}*/
+
 
     
 

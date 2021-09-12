@@ -233,8 +233,12 @@ transition: 3s;
 transition: 5s;
 }
 .info1:hover .zn3{
-    opacity:1;
+    #opacity:1;
 transition: 7s;
+}
+.zn3.show-animation{
+    opacity: 1;
+    transition: 1s;
 }
 .info1{
     width: 100%;
