@@ -220,7 +220,7 @@ font-size: 15px;
     font-weight: 200;
 
 }
-.info1:hover .zn{
+/*.info1:hover .zn{
     opacity:1;
 transition: 1s;
 }
@@ -235,8 +235,20 @@ transition: 5s;
 .info1:hover .zn3{
     #opacity:1;
 transition: 7s;
-}
+}*/
 .zn3.show-animation{
+    opacity: 1;
+    transition: 1s;
+}
+.zn2.show-animation{
+    opacity: 1;
+    transition: 1s;
+}
+.zn1.show-animation{
+    opacity: 1;
+    transition: 1s;
+}
+.zn.show-animation{
     opacity: 1;
     transition: 1s;
 }
