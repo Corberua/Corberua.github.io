@@ -8,7 +8,7 @@ elements.each ((i,el) => {
     
 });
 
-function onEnrty (entry){
+function onEntry (entry){
     entry.forEach(change => {
         if (change.isIntersecting){
             change.target.classList.add('show-animation');
@@ -28,7 +28,7 @@ function calc(){
 
 
 
-setTimeout(exampleModal, 1000);
+/*setTimeout(exampleModal, 1000);*/
 
 
 $(document).ready(function() {
