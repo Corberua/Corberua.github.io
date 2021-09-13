@@ -1,7 +1,7 @@
 $(document).ready(function(){
    let options = {threshold: [0.5]};
 let observer = new IntersectionObserver(onEntry, options);
-let elements = $('.zn3');
+let elements = $('.zn3, .zn2, .zn1, .zn');
 elements.each ((i,el) => {
    observer.observe(el); 
 });
