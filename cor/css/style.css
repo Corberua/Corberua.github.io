@@ -243,12 +243,10 @@ transition: 7s;
 .zn2.show-animation{
     opacity: 1;
     transition: 1s;
-}
-.zn1.show-animation{
+}.zn1.show-animation{
     opacity: 1;
     transition: 1s;
-}
-.zn.show-animation{
+}.zn.show-animation{
     opacity: 1;
     transition: 1s;
 }
@@ -610,10 +608,10 @@ transition: 7s;
   -moz-appearance: none;
   appearance: none;
     position:static;
-    padding: 0 0 0 450px;
+    padding: 0 0 0 300px;
     border: 1px solid #fff;
     height: 30px;
-    width: 500px;
+    width: 400px;
     background: #fff;
     text-align: right;
     font-size: 20px;
@@ -627,10 +625,10 @@ transition: 7s;
   appearance: none;
      position:static;
    left: 303px;
-    padding: 0 0 0 450px;
+    padding: 0 0 0 300px;
     border: 1px solid #fff;
     height: 30px;
-    width: 500px;
+    width: 400px;
     margin-left: 29.8%;
     background: #fff;
     text-align: right;

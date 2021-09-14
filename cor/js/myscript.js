@@ -28,7 +28,7 @@ function calc(){
 
 
 
-/*setTimeout(exampleModal, 1000);*/
+setTimeout(exampleModal, 1000);
 
 
 $(document).ready(function() {
@@ -54,7 +54,41 @@ $(document).ready(function() {
 	});
 	});
 	
-
+$('select.listen').change(function(){
+  let a=$('[name="site"] :selected').val();
+    let b=$('[name="dyzine"] :selected').val();
+    let c=$('[name="Adap"] :selected').val();
+    if(a === 'tipe1' && b === 'tipe1' && c === 'tipe1' ){
+        $('#st4').html('<option value="tipe">5</option>')
+        $("#st5").html('<option value="tipe2">3000</option>');
+        
+    }else if(a === 'tipe1' && b === 'tipe2' && c === 'tipe1' ){
+        $('#st4').html('<option value="tipe">10</option>')
+        $("#st5").html('<option value="tipe2">5000</option>');
+    }
+    else if(a === 'tipe1' && b === 'tipe1' && c === 'tipe2' ){
+        $('#st4').html('<option value="tipe">10</option>')
+        $("#st5").html('<option value="tipe2">5000</option>');
+    }
+    else if(a === 'tipe1' && b === 'tipe2' && c === 'tipe2' ){
+        $('#st4').html('<option value="tipe">10</option>')
+        $("#st5").html('<option value="tipe2">10000</option>');
+    }
+    else if(a === 'tipe2' && b === 'tipe1' && c === 'tipe1' ){
+        $('#st4').html('<option value="tipe">10</option>')
+        $("#st5").html('<option value="tipe2">8000</option>');
+    }
+    else if(a === 'tipe2' && b === 'tipe2' && c === 'tipe1' ){
+        $('#st4').html('<option value="tipe">15</option>')
+        $("#st5").html('<option value="tipe2">15000</option>');
+    }else if(a === 'tipe2' && b === 'tipe1' && c === 'tipe2' ){
+        $('#st4').html('<option value="tipe">20</option>')
+        $("#st5").html('<option value="tipe2">20000</option>');
+    }else if(a === 'tipe2' && b === 'tipe2' && c === 'tipe2' ){
+        $('#st4').html('<option value="tipe">20</option>')
+        $("#st5").html('<option value="tipe2">25000</option>');
+    }
+})
 
 
 
