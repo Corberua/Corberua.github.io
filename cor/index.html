@@ -4,18 +4,19 @@
         <meta charset="UTF-8">
         <meta name="description" content="Моя первая страница">
         <meta name="author" content="Corberua">
-        <meta mame="robots" content="all">
+        <meta name="robots" content="all">
         
         <title>Corberua веб разработчик</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/slick.min.css">
+       <link rel="stylesheet" href="css/slick-threme.css">
         <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
-        
     </head>
-    <body>
+    <body id="body">
                                 <div class="preloader">
     <div class="preloader__row">
       <div class="preloader__item"></div>
@@ -46,11 +47,12 @@
     навигация
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item" href="#">услуги</a></li>
-                <li><a class="dropdown-item" href="#">кейсы</a></li>
-                <li><a class="dropdown-item" href="#">прайс</a></li>
-                <li><a class="dropdown-item" href="#">отзывы</a></li>
-                <li><a class="dropdown-item" href="#">контакты</a></li>
+   <li><a class="dropdown-item" href="#main">обо мне</a></li>
+    <li><a class="dropdown-item" href="#information">услуги</a></li>
+                <li><a class="dropdown-item" href="#keys">кейсы</a></li>
+                <li><a class="dropdown-item" href="#dengi">прайс</a></li>
+                <li><a class="dropdown-item" href="#otziv">отзывы</a></li>
+                <li><a class="dropdown-item" href="#kontacts">контакты</a></li>
   </ul>
 </div>
                    </div>
@@ -63,10 +65,10 @@
         <main>   <section class="main" id="main">  <div class="container h-100">   
         <div class="row align-items-center h-100">  <div class="col-xxl-6 col-xl-7">  
         <div class="title_container">
-        <h1>Привет<br>Я Никита"Corberua"</h1>
-        <h4>фулл стек веб-разработчик</h4>
-        <input type="button" value="обо мне">
-            <input type="button" value="мои работы"></div></div></div></div>
+        <h1 class="mainBut">Привет<br>Я Никита"Corberua"</h1>
+        <h4 class="mainBut">фулл стек веб-разработчик</h4>
+        <a href="#info"><input type="button" value="обо мне" class="mainBut" ></a>
+           <a href="#keys"> <input type="button" value="мои работы" class="mainBut"></a></div></div></div></div>
 </section>
        
        
@@ -77,7 +79,7 @@
                        
                   
            
-           <div class="info">
+           <div class="info" id="info">
             <h2>обо мне</h2>
             <div class="zag " ></div>
             <div class="baby" ></div>
@@ -92,33 +94,59 @@
             <div class="info1 ">
             <div class="container h-100">
                <div class="row h-100 ">
-               <div class="col-xxl-12 col-lg-8">
+               <div class="col-xxl-12 ">
             <h2>что я умею</h2>
-            <div class="zag">
+            <div class="zag" id="infoZag" ></div>
             <div class="zn element-animation">
-                <img src="https://github.com/Corberua/corberua.github.io/blob/main/src/img/nout.jpg?raw=true" alt="" class="image-link" href="img/fon1.jpg">
+                <img src="img/nout.jpg" alt="" class="image-link" href="img/fon1.jpg">
                 <h3>веб дизайн</h3><span>описание</span>
                 </div>
                 <div class="zn1 element-animation">
-                <img src="https://github.com/Corberua/corberua.github.io/blob/main/src/img/znak.png?raw=true" alt="" class="image-link" href="img/fon1.jpg">
+                <img src="img/znak.png" alt="" class="image-link" href="img/fon1.jpg">
                 <h3>Разработка</h3><span>описание</span>
                 </div>
                 <div class="zn2 element-animation">
-                <img src="https://github.com/Corberua/corberua.github.io/blob/main/src/img/roket.png?raw=true" alt="" class="image-link" href="img/fon1.jpg">
+                <img src="img/roket.png" alt="" class="image-link" href="img/fon1.jpg">
                 <h3>CEO-Оптимизация</h3><span>описание</span>
                 </div>
                 <div class="zn3">
-                <img src="https://github.com/Corberua/corberua.github.io/blob/main/src/img/gram.png?raw=true" alt="" class="image-link" href="img/fon1.jpg">
+                <img src="img/gram.png" alt="" class="image-link" href="img/fon1.jpg">
                     <h3>Маркетинг</h3><span>описание</span>
-                </div> </div>
+                </div> 
 
         </div>
         </div>
 </div>
 </div>
         </section>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
+        
+        <section  class="keys" id="keys">
+         <div class="container h-100 py-5">
+               <div class="row h-100 py-5">
+               <div class="col-xxl-11 offset-xxl-1  col-xl-11 offset-xl-1 col-lg-8 offset-lg-2">
+          
+            <h2>кейсы</h2>
+            <div class="zag"></div>
+            <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, similique.</p>
+            
+
+          <div class="k1"> 
+           
+            <div><img src="https://s.fotorama.io/2.jpg" id="slide2" ></div>
+             <div><img src="img/kk.jpg" class="image-link" id="slide1" href="img/fon1.jpg"></div>
+            <div><img src="https://s.fotorama.io/2.jpg" id="slide3"></div>
+          </div>
+            <div class="keys2">
+                 
+                <ul id="ch"><li>client:</li></ul>
+                <ul id="ch1"><li>какая-то компания</li></ul>
+            <ul id="ch2" c><li>website:</li></ul>
+            <ul id="ch3">Corberua/corberua.github.io</ul> 
+            <a href="https://corberua.github.io/src/index.html"><input type="button" id="kein" value="visit live site" > </a>         </div> 
+            <div class="keys3">НАЗВАНИЕ ПРОЕКТА<br>
+LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. TEMPORA, LABORUM. Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Debitis dolor, veritatis fugiat ipsa culpa et eum, recusandae sapiente magni maiores itaque <br>praesentium consequuntur omnis illum suscipit aliquam distinctio quidem tempora! </div>    <div class="keys4">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Связь
 </button>
 
 <!-- Modal -->
@@ -126,45 +154,34 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Обратная связь</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <form action="php/mail.php" name="request" method="POST" class="sendler">
+  <div class="row mb-3">
+    <label for="inputEmail3"   class="col-sm-2 col-form-label" >Почта</label>
+    <div class="col-sm-10">
+      <input type="email" name="user_email" class="form-control Y-required" id="inputEmail3">
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputTel"   class="col-sm-2 col-form-label">Телефон</label>
+    <div class="col-sm-10">
+      <input type="phone" name="user_phone" class="form-control Y-required" id="inputTel">
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">отправить</button>
+</form >
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">закрыть</button>
+        
       </div>
     </div>
   </div>
+</div> 
 </div>
-        <section  class="keys" id="keys">
-         <div class="container h-100 py-5">
-               <div class="row h-100 py-5">
-               <div class="col-xxl-12 col-xl-12 col-lg-10 ">
-          
-            <h2>кейсы</h2>
-            <div class="zag"></div>
-            <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, similique.</p>
-            
-
-          <div class="k1">
-  <div class="fotorama">
-  <img src="img/kk.jpg" >
-  <img src="https://s.fotorama.io/2.jpg" >
-</div>
- </div>
-            <div class="keys2">
-                 
-                <ul id="ch"><li>client:</li></ul>
-                <ul id="ch1">какая-то компания</ul>
-            <ul id="ch"><li>website:</li>
-            </ul>
-            <ul id="ch1">Corberua/corberua.github.io</ul> 
-            <a href="https://corberua.github.io/src/index.html"><input type="button" value="visit live site" > </a>         </div> 
-            <div class="keys3">НАЗВАНИЕ ПРОЕКТА<br>
-LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. TEMPORA, LABORUM. Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Debitis dolor, veritatis fugiat ipsa culpa et eum, recusandae sapiente magni maiores itaque <br>praesentium consequuntur omnis illum suscipit aliquam distinctio quidem tempora!</div>
  
                </div>
 </div>
@@ -172,7 +189,7 @@ LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. TEMPORA, LABORUM. Lore
         <section class="dengi" id="dengi">
            <div class="container h-100">
                <div class="row h-100 ">
-               <div class="col-xxl-10 col-xl-8 offset-xl-2 col-lg-6">
+               <div class="col-xxl-10 col-xl-8 offset-xl-2 col-lg-6 offset-lg-2">
             <h2>Расчет стоимости</h2>
             <ul><li>тип сайта<br><select name="site" id="st1" class="listen">
             <option value="none" hidden="">Выберите пункт</option>
@@ -184,16 +201,16 @@ LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. TEMPORA, LABORUM. Lore
                 <option value="tipe2">уник</option>
                 </select></li>
             <li>Адаптивность<br><select name="Adap" id="st3" class="listen">
-            <option vvalue="none" hidden="">Выберите пункт</option>
+            <option value="none" hidden="">Выберите пункт</option>
             <option value="tipe1">пиксель</option>
             <option value="tipe2">резина</option>
                 </select></li></ul>
-                <div class="dwe">
-                
-                
-                
-           <ul><li>Сроки<select name="Adap" id="st4" class="asd"><option value="tipe1"> </option></select></li>
-           <li> Cтоимость<select name="Adap" id="st5"><option value="tipe2" class="">  </option></select></li></ul></div>
+                <div class="dwe">     
+           <ul><!--<li>Сроки<select name="Adap" id="st4" class="asd"><option value="tipe1"> </option></select></li>
+           <li> Cтоимость<select name="Adap" id="st5"><option value="tipe2" class="">  </option></select></li>-->
+              <li><label for="" name="Adap"  class="asd">chjr<oprion value="tipe1" id="st4"></oprion></label></li>
+              <li><label for=""name="Adap">Cnjbv<option value="tipe2" class="" id="st5">  </option></label></li>
+              </ul></div>
                </div></div></div>
                 </section>
         <section> 
@@ -234,7 +251,7 @@ LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. TEMPORA, LABORUM. Lore
                      <h2>ОТЗЫВЫ</h2>
                      <div class="zag"></div>
                      <div class="dady"></div>
-                      <p>оставьте свой отзыв Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus consectetur magnam, ab exercitationem, pariatur ipsa?</p>
+                      <p>оставьте свой отзыв Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus consectetur magnam, ab exercitationem, pariatur ipsa?</p><br>
                         
                       <p>Иван Федоровыч Промакашкин</p>
                       <div class="ora"></div>
@@ -245,7 +262,7 @@ LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. TEMPORA, LABORUM. Lore
        <section class="kontacts" id="kontacts">
          <div class="container h-100">
             <div class="row h-100">
-                <div class="col-xxl-8 offset-xxl-2 col-xl-7 offset-xl-3 col-lg-7 offset-lg-2 ">
+                <div class="col-xxl-8 offset-xxl-2 col-xl-7 offset-xl-3 col-lg-7 offset-lg-2 col-3 offset-2 ">
            <div class="iconuo">
                <h2>МОИ КОНТАКТЫ</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
@@ -289,11 +306,12 @@ LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. TEMPORA, LABORUM. Lore
     }
   </script>
 
-         <script src="js/jquery-3.6.0.min.js"></script>
-          <script src="js/bootstrap.bundle.min.js"></script>
-          <script src="js/jquery.magnific-popup.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-   <script src="js/myscript.js"></script>
+           <script src="js/jquery-3.6.0.min.js"></script>
+           <script src="js/bootstrap.bundle.min.js"></script>
+           <script src="js/jquery.magnific-popup.min.js"></script>
+           <script src="js/slick.min.js"></script>
+            <script src="js/jquery.maskedinput.js"></script>
+           <script src="js/myscript.js"></script>
     </body>
     
 </html>

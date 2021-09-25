@@ -1,6 +1,8 @@
+
 body{
-   font-family: Arial, sans-serif;  
+   font-family: Arial, sans-serif;
 }
+
 main{
     width: 100%;
     height: 100%;
@@ -10,20 +12,17 @@ nav{
     height: 60px;
     background: #344051;
     position: fixed;
-    z-index: 10;
+    z-index: 1;
 }
 .logo{
     color: #fff;
     font-size: 28px;
     line-height: 60px;
-    #padding-left: 388px;
     float: left;
 }
 
 .menu{
     float: left;
-    #padding-left: 432px;
-    
 }
 .menu li a{
     transition: all 0.3s;
@@ -36,7 +35,11 @@ nav{
     color: white;
 }
 
-
+.keys4{
+    float: left;
+    margin: 200px 0 0 -100px;
+    position: relative;
+}
 .menu li{
     float: left;
     line-height: 60px;
@@ -63,7 +66,8 @@ nav{
 }
 main{
     width: 100%;
-    height: 100%;}
+    height: 100%;
+}
 .main{
     width: 100%;
     height: 100%;
@@ -113,15 +117,21 @@ main{
 .title_container input:active{
     transform: scale(0.3);
 }
+@media (max-width: 400px){
+   
+    
+}
 @media (max-width: 1300px){
-    .title_container{
+    .mainBut {
         color: azure;
         position: relative;
-        z-index: 3;    }
+        z-index: 1;    
+    }
 
         .main{
             position: relative;
         }
+
     .main::after{
         content: "";
         bottom: 0;
@@ -130,10 +140,10 @@ main{
         right: 0;
         position: absolute;
         background: rgba(0,0,0,0.4);
-        z-index: 1;
+       
     }
     .title_container h4{
-        color: currentColor;
+        color: azure;
     }
     .title_container input{
         color: aliceblue;
@@ -197,12 +207,18 @@ main{
 .info input:active{
     transform: scale(1.2);
 }
-@media (max-width:1000px){
+@media (max-width:1620px){
+    .info input{
+        width: 300px;
+        margin-right: 40px;
+    }
+}
+@media (max-width:1024px){
     .info input{
          width: 200px;
     height: 30px;
 font-size: 15px;
-        margin-left: 240px;
+        margin-left: 150px;
     }
 }
 @media (max-width:400px){
@@ -220,22 +236,6 @@ font-size: 15px;
     font-weight: 200;
 
 }
-/*.info1:hover .zn{
-    opacity:1;
-transition: 1s;
-}
-.info1:hover .zn1{
-    opacity:1;
-transition: 3s;
-}
-.info1:hover .zn2{
-    opacity:1;
-transition: 5s;
-}
-.info1:hover .zn3{
-    #opacity:1;
-transition: 7s;
-}*/
 .zn3.show-animation{
     opacity: 1;
     transition: 1s;
@@ -256,6 +256,13 @@ transition: 7s;
     background: url(https://github.com/Corberua/corberua.github.io/blob/main/src/img/fon1.jpg?raw=true) center/cover no-repeat ;
     
 }
+@media (max-width: 1024px){
+    .info1{
+        width: 100%;
+        height: 600px;
+    }
+
+}
 @media (max-width: 400px){
     .info1{
         height: 600px;
@@ -275,6 +282,7 @@ transition: 7s;
     padding: 108px 0px 32px 0px;
     color: #263244; 
 }
+
 .zn{
      float: left; 
      line-height: 20px;
@@ -328,8 +336,9 @@ transition: 7s;
 }
 @media (max-width: 1024px){
     .zn, .zn2, .zn3, .zn1{
+        padding-left: 10%;
         font-size: 15px;
-    margin: 8% 3%;
+    margin: 8% 5%;
      width: 110px;
       
     }
@@ -370,7 +379,8 @@ transition: 7s;
 
 .keys{
     width: 100%;
-    height: calc(100%-100px);  
+    height: 1350px;
+ 
 }
 
 .keys h2{
@@ -390,12 +400,7 @@ transition: 7s;
     margin: 38px 0px 32px 0px;
     color: #263244;
 }
-#.keys1 {
 
-    width: 100%;
-    height: 1000px;
-    #margin-bottom: -400px;
-}
 #ch{
     float: auto;
     line-height: 30px;
@@ -403,13 +408,22 @@ transition: 7s;
     text-transform: uppercase;    
 }
 #ch1{
-
     line-height: 40px;
     font-size: 16px;
     text-transform: uppercase;    
 }
-
-.keys input{
+#ch2{
+    float: auto;
+    line-height: 30px;
+    font-size: 30px;
+    text-transform: uppercase;    
+}
+#ch3{
+    line-height: 40px;
+    font-size: 16px;
+    text-transform: uppercase;    
+}
+#kein{
     height: 40px;
     text-align: center;
     background: #63b5ae;
@@ -422,10 +436,10 @@ transition: 7s;
     transition: all 0.2s;
     transform: scale(1);
 }
-.keys input:hover {
+#kein:hover {
     color: white;
 }
-.keys input:active{
+#kein:active{
     transform: scale(0.3);
 }
 .keys2{
@@ -437,15 +451,13 @@ transition: 7s;
      text-align: left;
     height: 150px;
     margin-left: 6%;
-    #margin-right: 30px;
-    
 }
 @media (max-width: 1024px){
-    #ch{
+    #ch, #ch2{
         line-height: 20px;
     font-size: 20px;
     }
-    #ch1{
+    #ch1, #ch3{
         line-height: 30px;
     font-size: 16px;
     }
@@ -454,8 +466,15 @@ transition: 7s;
         font-size: 10px;
     }
     .keys{
+        width: 1024px;
         height: 700px;
         margin-bottom: 50px;
+    }
+    .keys2{
+        margin-left: 2%;
+    }
+    .keys3{
+        margin-left: 2%;
     }
 }
 @media (max-width: 400px){
@@ -467,7 +486,7 @@ transition: 7s;
         line-height: 15px;
     font-size: 10px;
     }
-    .keys2 input{
+    #kein{
         height: 10px;
         font-size: 8px;
         width: 60px;
@@ -475,20 +494,20 @@ transition: 7s;
     }
     .keys{
         height: 1000px;
-        margin-bottom: -450px;
+    
     }
 }
-.k1   {
-    height: 80%;
-
-    margin-left: -20%;
-    margin-bottom: -50px;
-}
+.k1{
+        max-width: 1200px;
+        margin-left: -20px;
+        margin-right: auto;
+        background-image: image();
+    }
 @media (max-width: 1300px){
-    .k1{
+    /*.k1{
         width: 100%;
         margin-left: -360px;
-    }
+    }*/
     .fotorama{
         width: 100%;
         margin-left: -360px;
@@ -496,17 +515,22 @@ transition: 7s;
 }
 @media (max-width: 1024px){
     .k1{
-        width: 100%;
-        margin-left: -360px;
+        max-width: 1024px;
+        margin-left: -30px;
+        margin-right: auto;
         background-image: image();
-        margin-bottom: -125px;
+        #margin-bottom: -125px;
+    }
+    .keys{
+        height: 900px;
+        margin-bottom: 350px;
         
     }
-    .fotorama{
-        width: 100%;
-        margin-left: 250px;
-        background-image: image()
+    #slide1, #slide2, #slide3{
+        margin-left: auto;
+        margin-right: auto;
     }
+
 }
 @media (max-width: 375px){
     .k1 img{
@@ -517,17 +541,32 @@ transition: 7s;
     }
     
 }
+.keys33{
+    position: absolute;
+    float: auto;
+    height: 200px;
+    margin-left: 30%;
+    text-align: left;
+    line-height: 25px;
+    font-size: 15px;
+    
+}
+
 .keys3{
     position: absolute;
     float: auto; 
      line-height: 25px;
      font-size: 15px;
-     width: 100%;
      text-align: left;
      height: 80px;
     margin-left: 30%;
     margin-top: 10px;
 }
+@media (max-width: 1440px){
+    .keys3{
+        margin-left: 40%;
+        width: 50%;
+    }}
 @media (max-width: 1024px){
     .keys3{
         width: 300px;
@@ -603,6 +642,7 @@ transition: 7s;
 .dwe{
     height: 10px;
 }
+
 #st4{
       -webkit-appearance: none;
   -moz-appearance: none;
@@ -634,14 +674,14 @@ transition: 7s;
     text-align: right;
     font-size: 20px;
 }
-@media (max-width: 1500px){ 
+@media (max-width: 1440px){ 
     #st4{
-        padding:0 0 0 282px;
-        width: 320px;
+        padding:0 0 0 205px;
+        width: 340px;
     }
     #st5{
         padding: 0 0 0 270px;
-        width: 300px;
+        width: 340px;
     }
 }
 @media (max-width: 1024px){ 
@@ -649,7 +689,7 @@ transition: 7s;
         height: 40px;
         width: 600px;
         font-size: 11px;
-        padding: 2px 250px 0 250px;
+        padding: 1% 0;
         margin: 20px 0px 20px 0;
         
     }
@@ -657,13 +697,17 @@ transition: 7s;
     line-height: 30px;
     font-size: 13px;
     }
+    .dwe{
+       display: inline-block;
+        vertical-align:middle;
+    }
     #st4{
-        padding:0 0 0 272px;
-        width: 300px;
+        padding:0 0 0 5%;
+        width: 400px;
     }
     #st5{
-        padding: 0 0 0 270px;
-        width: 300px;
+        padding: 0 0 0 1%;
+        width: 400px;
     }
 }
 @media (max-width: 400px){
@@ -822,9 +866,9 @@ width: 30px;
         font-size: 10px;
     }
 }
-@media (max-width: 1500px){
+@media (max-width: 1440px){
     .ora{
-        margin-left: 440px;
+        margin-left: 610px;
     }
 }
 @media (max-width: 1300px){
@@ -839,7 +883,7 @@ width: 30px;
 }
 @media (max-width: 400px){
     .ora{
-        margin-left: 150px;
+     margin-right: 200px;
     }
 }
 
@@ -857,6 +901,14 @@ width: 30px;
     padding: 90px 40px 48px 0px;
     color: #fff;
     margin: 20px 0 0 40px;
+}
+@media (max-width: 1024px){
+    .iconuo h2{
+        margin-left: 120px;
+    }
+    .iconuo p{
+        margin-left: 90px;
+    }
 }
 .iconuo p{
     text-align: center;
@@ -916,6 +968,11 @@ width: 30px;
     margin-top: 1%;
     padding-top: 10%;
 }
+    @media (max-width: 1024px){
+        .okno{
+            margin-left: -1px;
+        }
+    }
 .okno1 input{
     width: 342px;
     height: 34px;

@@ -5,11 +5,8 @@ body{
     padding: 0;
    
 }
-
-.qwerty{
-    opacity: 0
-}
-.qwerty.qaz{
-    opacity: 1;
-    transition: 2s;
+.single-slide{
+    background-color: red;
+    border: 2px solid #ddd;
+    height: 500px;
 }
